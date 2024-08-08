@@ -18,8 +18,16 @@ header {
 .product-card {
   width: 1024px;
   display: flex;
-  background-color: #e0d6d6
+  background-color: #e0d6d6;
+  margin: 20px auto;
+  justify-content: space-evenly;
 }
+
+.product-card:hover {
+  background-color: #ddd;
+  text-decoration: underline;
+}
+
 
 .text-block {
   width: 400px
